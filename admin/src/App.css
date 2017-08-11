@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}

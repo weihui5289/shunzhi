@@ -1,0 +1,35 @@
+.dishes {
+  height: 100vh;
+  padding-bottom: 90px;
+}
+
+.dishes .dish-header {
+  color: white;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.dishes .slick-slider {
+  color: white;
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .9;
+  color: white;
+}
+
+.slick-dots li button:before {
+  opacity: .4;
+  color: white;
+}
+
+.dishes .dish-card-wrap {
+  padding: 35px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  height: 100%;
+}

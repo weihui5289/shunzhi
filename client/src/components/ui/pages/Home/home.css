@@ -1,0 +1,42 @@
+.home {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home .app-logo {
+  display: block;
+  width: 120px;
+  margin: 72px auto;
+}
+
+.home .title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.home .slogan {
+  font-size: 20px;
+  text-align: center;
+  margin:20px 20px;
+}
+
+.home .actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.home .actions>a {
+  display: block;
+  font-size: 14px;
+  color: #F77062;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+  border-radius: 2px;
+  text-align: center;
+  width: 150px;
+  line-height: 56px;
+}

@@ -1,0 +1,104 @@
+.dish-info {
+  min-height: 300px;
+  margin-top: 80px;
+  background-color: #F9FAFB;
+  padding: 10px;
+}
+
+.dish-img-wrap {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: -80px;
+  height: 200px;
+  width: 230px;
+  padding: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+
+.dish .dish-img-wrap .img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 370px;
+}
+
+.dish-info-card {
+  min-height: 300px;
+  width: 100%;
+  margin-top: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  padding: 10px;
+}
+
+.dish-info-card h1.dish-name {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #F77062;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.dish-info-card .price-tag {
+  color: #878787;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dish-info-card .price-tag span.unit {
+  color: #F77062;
+}
+
+.dish .shopping-icon-wrap {
+  text-align: center;
+  width: 30px;
+  margin: 20px auto;
+}
+
+.dish .shopping-icon-wrap svg {
+  display: inline-block;
+}
+
+.dish .dish-desc {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #878787;
+  text-align: center;
+  line-height: 24px;
+}
+
+.dish-comment-icon-wrap {
+  width: 44px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dish-comment-icon-wrap>* {
+  display: block;
+}
+
+.dish-comment-icon-wrap .dish-comment-no {
+  line-height: 20px;
+  color: #D0D0D0;
+}
+
+
+.dish-sub-title {
+  color: #414141;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.dish-sub-detail {
+  text-align: center;
+  color: #818181;
+  opacity: .8;
+  margin-bottom: 20px;
+}
